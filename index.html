@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Certification Generator</title>
+        <!-- style css file -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="mother">
+            <div class="container">
+                <img src="images/certificate.png" class="mother_image" alt="Logo">
+                <h1>Certificate</h1>
+                <form action="cert.php" method="POST">
+                    <input  type="text"     name="name"    placeholder="student name">
+                    <input  type="text"     name="teacher" placeholder="teacher name">
+                    <input  type="text"     name="numb"    placeholder="certificate number">
+                    <input  type="submit"   name="add"     value="Generate now">
+                </form>
+            </div>
+        </div>
+        <!-- script js file -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

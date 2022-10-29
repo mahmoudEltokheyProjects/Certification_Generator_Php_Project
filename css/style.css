@@ -1,0 +1,77 @@
+* , *::before , *::after
+{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: 'Roboto', sans-serif;
+}
+/* ++++++++++++++++++++++++ Mother Div ++++++++++++++++++++++++ */
+.mother
+{
+    width: 100vw ;
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f00 ;
+}
+.container
+{
+    width: 400px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    margin: 0 auto ;
+    padding: 20px 0 ;
+    box-shadow: -2px  2px 4px 0px rgba(140, 137, 137, 0.69) ,
+                 2px -2px 4px 0px rgba(113, 110, 110, 0.69) ,
+                 2px  2px 4px 0px rgba(113, 110, 110, 0.69) ,
+                -2px -2px 4px 0px rgba(113, 110, 110, 0.69) ;
+}
+.mother     h1
+{
+    padding: 0 ;
+    margin: 0 ;
+    margin : 20px  0 ;
+}
+.mother   input
+{
+    display: block;
+    width: 300px ;
+    padding: 8px ;
+    margin-bottom: 20px ;
+    outline: none ;
+    border: 2px solid #ccc;
+}
+.mother   input::-webkit-input-placeholder
+{
+    text-transform: capitalize;
+}
+/* submit button */
+.mother   input[type="submit"]
+{
+    padding: 15px 0 ;
+    color: #fff ;
+    cursor: pointer;
+    font-size: 16px ;
+    background-color: rgb(29, 103, 177) ;
+    border: none ;
+    outline: none ;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+.mother   input[type="submit"]:hover
+{
+    background-color: #f00;
+}
+.mother_image
+{
+    width: 150px ;
+}
